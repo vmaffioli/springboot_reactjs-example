@@ -7,6 +7,12 @@ import com.vmaffioli.minhasfinancas.service.UsuarioService;
 public class UsuarioServiceImpl implements UsuarioService{
 
 	private UsuarioRepository repository;
+		
+	public UsuarioServiceImpl(UsuarioRepository repository) {
+		super();
+		this.repository = repository;
+	}
+
 	
 	@Override
 	public Usuario autenticar(String email, String senha) {
