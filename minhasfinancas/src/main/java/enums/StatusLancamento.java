@@ -1,4 +1,4 @@
-package com.vmaffioli.minhasfinancas.model.entity;
+package enums;
 
 public enum StatusLancamento {
 	
